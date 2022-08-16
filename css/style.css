@@ -1002,7 +1002,6 @@ footer {
     height: 512px;
     float: none;
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
     position: relative;
   }
@@ -1337,7 +1336,7 @@ footer {
     margin: 0;
   }
   #header_bottom nav > ul > li ul li {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 34px;
     color: #650a30;
   }
@@ -1375,7 +1374,7 @@ footer {
   }
   .content1_ct > p {
     font-family: "Do Hyeon", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
     line-height: 36px;
@@ -1455,7 +1454,7 @@ footer {
   }
   .content2 > p {
     font-family: "Do Hyeon", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     text-align: center;
     line-height: 36px;
@@ -1471,12 +1470,11 @@ footer {
   .content2_ct {
     max-width: 375px;
     width: 100%;
-    height: 324px;
+    height: 432px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
   .content2_ct img:nth-child(1) {
     width: 216px;
@@ -1502,7 +1500,7 @@ footer {
     line-height: 28px;
     text-align: center;
     color: #650a30;
-    margin-bottom: 5px;
+    margin-bottom: 0;
     letter-spacing: -0.5px;
   }
   .content2_txt p:last-child {
@@ -1527,8 +1525,8 @@ footer {
   /* ========== content3 */
   .content3 {
     width: 100%;
-    height: 468px;
-    padding: 72px 0;
+    height: 396px;
+    padding: 0 0 72px;
     position: relative;
   }
   /* content3 - content3_ct */
@@ -1538,9 +1536,8 @@ footer {
     height: 324px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
   .content3_ct img:nth-child(1) {
     width: 216px;
@@ -1566,14 +1563,14 @@ footer {
     line-height: 28px;
     text-align: center;
     color: #650a30;
-    margin-bottom: 5px;
+    margin-bottom: 0;
     letter-spacing: -0.5px;
   }
   .content3_txt p:last-child {
     font-family: "Do Hyeon";
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 60px;
     margin-bottom: 0;
     letter-spacing: 2px;
@@ -1585,7 +1582,7 @@ footer {
     background: url(../img/Line02.png) no-repeat;
     background-size: cover;
     position: absolute;
-    top: 0;
+    top: 0px;
     z-index: -1;
   }
   /* =============== content_4_5 */
@@ -1598,16 +1595,21 @@ footer {
   /* ========== content4 */
   .content4 {
     width: 100%;
-    height: 468px;
+    height: 432px;
     padding: 0 0 72px;
     position: relative;
+    display: flex;
+    justify-content: center;
   }
   /* content4 - content4_ct */
   .content4_ct {
     max-width: 768px;
     width: 100%;
-    height: 324px;
+    height: 360px;
     float: none;
+    display: flex;
+    flex-direction: column;
+    position: relative;
   }
   /* content4_ct - content4_img */
   .content4_img {
@@ -1619,7 +1621,8 @@ footer {
   }
   /* content4_ct - content4_txt */
   .content4_txt {
-    height: 72px;
+    width: auto;
+    height: 108px;
     text-align: center;
     margin-top: 0;
   }
@@ -1628,17 +1631,16 @@ footer {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 28px;
+    line-height: 26px;
     color: #650a30;
-    margin-bottom: 5px;
+    margin-bottom: 0;
     letter-spacing: -0.5px;
-    width: 375px;
   }
   .content4_txt p:last-child {
     font-family: "Do Hyeon";
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 60px;
     margin-bottom: 0;
     letter-spacing: 2px;
@@ -1656,16 +1658,21 @@ footer {
   /* ========== content5 */
   .content5 {
     width: 100%;
-    height: 468px;
+    height: 432px;
     padding: 0 0 72px;
     position: relative;
+    display: flex;
+    justify-content: center;
   }
   /* content5 - content5_ct */
   .content5_ct {
     max-width: 375px;
     width: 100%;
-    height: 324px;
+    height: 360px;
     float: none;
+    display: flex;
+    flex-direction: column;
+    position: relative;
   }
   /* content5_ct - content5_img */
   .content5_img {
@@ -1678,7 +1685,7 @@ footer {
   /* content5_ct - content5_txt */
   .content5_txt {
     width: auto;
-    height: 72px;
+    height: 108px;
     text-align: center;
   }
   .content5_txt p {
@@ -1686,9 +1693,9 @@ footer {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 28px;
+    line-height: 26px;
     color: #650a30;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     letter-spacing: -0.5px;
     width: 375px;
   }
@@ -1696,7 +1703,7 @@ footer {
     font-family: "Do Hyeon";
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 60px;
     margin-bottom: 0;
     letter-spacing: 2px;
@@ -1750,7 +1757,7 @@ footer {
   }
   .link1 p {
     font-family: "Do Hyeon", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     color: #fdfcfb;
     line-height: 30px;
@@ -1763,7 +1770,7 @@ footer {
   }
   .link1 p span:last-child {
     text-align: center;
-    font-size: 28px;
+    font-size: 32px;
     letter-spacing: 1px;
   }
   /* content6_link - link2 */
@@ -1780,7 +1787,7 @@ footer {
   }
   .link2 p {
     font-family: "Do Hyeon", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     color: #650a30;
     line-height: 30px;
@@ -1792,7 +1799,7 @@ footer {
     display: block;
   }
   .link2 p span:last-child {
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
     letter-spacing: 1px;
   }
@@ -1825,7 +1832,11 @@ footer {
   /* footer_ct - footer_txt */
   .footer_txt ul {
     text-align: center;
+    margin: 0 3px;
     padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .footer_txt ul li {
     font-family: "IBM Plex Sans";
