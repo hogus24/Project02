@@ -1285,6 +1285,7 @@ footer {
     color: #fdfcfb;
   }
 }
+/* ============================================= MEDIA QUERY */
 /* ==================== Mobile */
 @media screen and (min-width: 375px) and (max-width: 767px) {
   #header_top {
@@ -1315,6 +1316,7 @@ footer {
     margin: 17px 0 0 10px;
     float: left;
     cursor: pointer;
+    display: none;
   }
   nav .option span {
     display: block;
@@ -1324,14 +1326,20 @@ footer {
     margin-bottom: 6px;
   }
   nav .option span:nth-child(2) {
-    width: 22px;
+    width: 28px;
   }
   /* nav - GNB */
   #header_bottom nav > ul > li:first-child {
     margin-left: 0px;
   }
   #header_bottom nav > ul > li {
+    font-size: 18px;
     margin: 0;
+  }
+  #header_bottom nav > ul > li ul li {
+    font-size: 16px;
+    line-height: 34px;
+    color: #650a30;
   }
   /* search */
   nav .search input {
